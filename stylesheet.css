@@ -1,0 +1,191 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    background: url('./images/pattern-background-desktop.svg') no-repeat center center/cover;
+    background-size: 1440px 700px;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Outfit", sans-serif;
+  }
+
+/* ---------------------------content section---------------------- */
+.content {
+    width: 350px;
+    height: auto;
+    background-color: hsl(225, 100%, 98%);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    align-self: center;
+    color: hsl(215, 51%, 70%);
+    box-shadow: 1px 2px 28px 1px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+
+.content img{
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.content h3{
+    color: hsl(223, 47%, 23%);
+    font-weight: 100%;
+    font-size: 23px;
+    text-align: center;
+}
+
+.content p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.special{
+    display: flex;
+    margin-left: 50px;
+}
+
+.special img{
+    width: 40px;
+    height: 40px;
+}
+
+.special h4{
+    position: relative;
+    bottom: 18px;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.special b{
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+.special p{
+    font-size: 11px;
+    font-weight: bold;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+.special p:hover{
+    color: hsl(215, 51%, 70%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.content button{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 10px 65px 10px 65px;
+    border: none;
+    border-radius: 10px;
+}
+
+.content button:hover{
+    background-color: hsl(215, 51%, 70%);
+    cursor: pointer;
+}
+
+.last{
+    padding-left: 135px;
+    color:hsl(215, 51%, 70%);
+    font-size: 12px;
+}
+
+.content a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.content a:hover{
+    color:hsl(223, 47%, 23%) ;
+}
+
+
+/* ---------------------------attribution section---------------------- */
+.attribution { 
+    margin-top: 20px;
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 480px){
+    body{
+        background: url('./images/pattern-background-mobile.svg') no-repeat center center/cover;
+        background-color: hsl(225, 100%, 94%);
+    }
+    
+    .content {
+        width: 260px;
+        height: auto;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 15px;
+        background-color: hsl(225, 100%, 98%);
+      }
+
+      .content img{
+        width: 260px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .content p{
+        line-height: 20px;
+        padding: 10px;
+    }
+
+    .content button{
+        margin-left: 18px;
+        border-radius: 15px;
+        padding: 15px 50px 15px 50px;
+    }
+    
+
+    .special{
+        display: flex;
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+
+    .special img{
+        margin-left: 20px;
+        margin-bottom: 5px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .special h4{
+        left: -10px;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    .special p{
+        position: relative;
+        bottom: 20px;
+        right: 10px;
+    }
+
+
+    .last{
+        padding-left: 100px;
+    }
+    
+    
+      .attribution{
+          display: none;
+      }
+}
