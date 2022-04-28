@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/HenryAgu/orderSummary.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://chic-lollipop-02c8c3.netlify.app/)
 
 
 ### Built with
